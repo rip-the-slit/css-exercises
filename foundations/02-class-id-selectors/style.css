@@ -1,0 +1,24 @@
+.odd {
+    font-family: 'Verdena', 'DejaVu Sans', sans-serif;
+    font-size: large;
+    background-color: rgba(221, 43, 43, 0.566);
+}
+
+#cooler {
+    font-size: x-large;
+}
+
+.even {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#blue {
+    font-size: xx-large;
+    color: blue;
+}
+
+#green {
+    font-size: 23px;
+    font-weight: bolder;
+    background-color: rgba(49, 221, 43, 0.566);
+}

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Prima;
+    src: url(./Prima\ Serif\ Regular.otf);
+}
+
+div {
+    color: white;
+    background-color: red;
+    font-size: xx-large;
+    font-family: Prima, serif;
+    text-align: center;
+}
+
