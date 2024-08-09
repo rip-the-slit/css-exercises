@@ -5,10 +5,13 @@ html {
 }
 
 .container {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 300px 650px;
+  grid-template-rows: 100px 100px 400px 100px;
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  gap: 15px;
 }
 
 .container div {
@@ -21,10 +24,12 @@ html {
 }
 
 .header {
+  grid-column: 1 / -1;
   background-color: #006157;
 }
 
 .sidebar {
+  grid-row: 2 / 4;
   background-color: #005B94;
 }
 
@@ -37,6 +42,7 @@ html {
 }
 
 .footer {
+  grid-column: 1 / -1;
   background-color: #393f4d;
 }
 
